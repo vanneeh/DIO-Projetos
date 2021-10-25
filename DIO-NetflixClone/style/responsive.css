@@ -1,0 +1,27 @@
+@media screen and (max-width:800px){
+    header .container{
+    display: flex;
+    flex-direction:column;
+    }
+
+    .botao{
+        margin: 8px 0px 15px 0px;
+        padding: 10px 15px;
+        font-size: 12px;
+        width: 190px;
+    }
+  .filme-principal{
+   
+    background: linear-gradient(180deg, rgba(0,0,0,.2) 0%, rgba(0,0,0,.5) 80%,rgba(21,21,20,.8) 90%, rgba(21,21,20,1) 100%), url('../img/loveo2o-capa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 20%;
+    background-position-x: 80%;
+    }
+    .botoes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
